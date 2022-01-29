@@ -1,6 +1,9 @@
 # Factual News Graph (FANG) - Reproducibility Experiments
-***Note:*** *This repository is a fork of the [FANG](https://github.com/nguyenvanhoang7398/FANG) code repository. The only difference to that repository (as of January 29, 2022) is the additional `reproducibility-experiments` folder containing logfiles/scripts documenting attempts to reproduce the results reported in the FANG [paper](https://arxiv.org/abs/2008.07939)*
+**Note:** This repository is a fork of the [FANG](https://github.com/nguyenvanhoang7398/FANG) code repository. The only difference to that repository (as of January 29, 2022) is the additional `reproducibility-experiments` folder containing logfiles/scripts documenting attempts to reproduce the results reported in the FANG [paper](https://arxiv.org/abs/2008.07939). All parts of the README from [Factual News Graph (FANG)](#factual-news-graph-fang) onwards are also same as the original README.
+## Links
+* [Notebook for (trying to) execute FANG on Google Colab runtime with GPU](https://colab.research.google.com/drive/1P-uTqataDAZ0OoTfzb3FxvQUjxhxkNQL?usp=sharing)
 
+# Factual News Graph (FANG)
 This is the implementation of FANG - a graph representation learning framework for fake news detection. 
 
 For more details, please refer to our paper.
