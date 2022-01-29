@@ -1,0 +1,10 @@
+Batch size in BasicConfig (training/configs.py, row 48; default value = 32) was modified before each run of 
+time python run_graph.py -t fang -m graph_sage -p data/news_graph --percent 10 --epochs=30 --attention --use-stance --use-proximity --temporal:
+
+We hoped to not run out of CUDA memory this way...
+The program still crashed due to running out of CUDA memory when starting "Training GraphSage"
+
+1st run: batch size = 16
+2nd run: batch size = 8
+3rd run: batch size = 1
+4th run: aborted

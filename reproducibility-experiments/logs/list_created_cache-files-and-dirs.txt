@@ -1,0 +1,180 @@
+The following command line output log provides an overview of files that were created while we tried to get FANG to run on our local machine.
+
+Script started on 2022-01-29 18:54:25+01:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+(base) ]0;sejmou@sejmou-desktop: ~/Repos/Uni/ExpDesDS/FANG_original[01;32msejmou@sejmou-desktop[00m:[01;34m~/Repos/Uni/ExpDesDS/FANG_original[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mdata/news_graph/far_node_cache_source_news_1.pickle[m
+	[31mdata/news_graph/far_node_cache_user_2.pickle[m
+	[31mdataset/__pycache__/[m
+	[31mexp_ckpt/[m
+	[31mexp_log/[m
+	[31mfang/__pycache__/[m
+	[31mfang/graphsage/__pycache__/[m
+	[31mgraph/__pycache__/[m
+	[31mgraph/gcn/__pycache__/[m
+	[31mgraph/ngcn/__pycache__/[m
+	[31mtraining/__pycache__/[m
+	[31muser_embed/__pycache__/[m
+	[31muser_embed/graphsage/__pycache__/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;sejmou@sejmou-desktop: ~/Repos/Uni/ExpDesDS/FANG_original[01;32msejmou@sejmou-desktop[00m:[01;34m~/Repos/Uni/ExpDesDS/FANG_original[00m$ git ls-files --others --exclude-standard
+data/news_graph/far_node_cache_source_news_1.pickle
+data/news_graph/far_node_cache_user_2.pickle
+dataset/__pycache__/__init__.cpython-37.pyc
+dataset/__pycache__/__init__.cpython-39.pyc
+dataset/__pycache__/news_graph.cpython-37.pyc
+dataset/__pycache__/news_graph.cpython-39.pyc
+dataset/__pycache__/utils.cpython-37.pyc
+exp_ckpt/fang-graph_sage-01_25_22-14-25-20/graph_sage_ckpt_0.tar
+exp_ckpt/fang-graph_sage-01_25_22-14-25-20/graph_sage_ckpt_best.tar
+exp_ckpt/fang-graph_sage-01_25_22-14-25-20/news_classifier_ckpt_0.tar
+exp_ckpt/fang-graph_sage-01_25_22-14-25-20/news_classifier_ckpt_best.tar
+exp_ckpt/fang-graph_sage-01_25_22-14-25-20/stance_classifier_ckpt_0.tar
+exp_ckpt/fang-graph_sage-01_25_22-14-25-20/stance_classifier_ckpt_best.tar
+exp_log/fang-graph_sage-01_25_22-09-36-06/00000/node embedding/metadata.tsv
+exp_log/fang-graph_sage-01_25_22-09-36-06/00000/node embedding/tensors.tsv
+exp_log/fang-graph_sage-01_25_22-09-36-06/events.out.tfevents.1643099781.sejmou-desktop.6285.0
+exp_log/fang-graph_sage-01_25_22-09-36-06/projector_config.pbtxt
+exp_log/fang-graph_sage-01_25_22-09-36-06/train_context_loss/events.out.tfevents.1643099841.sejmou-desktop.6285.2
+exp_log/fang-graph_sage-01_25_22-09-36-06/train_grad/events.out.tfevents.1643099841.sejmou-desktop.6285.1
+exp_log/fang-graph_sage-01_25_22-09-36-06/train_news_loss/events.out.tfevents.1643099841.sejmou-desktop.6285.4
+exp_log/fang-graph_sage-01_25_22-09-36-06/train_other_avg_closed_ratio/events.out.tfevents.1643099897.sejmou-desktop.6285.7
+exp_log/fang-graph_sage-01_25_22-09-36-06/train_other_avg_far_ratio/events.out.tfevents.1643099897.sejmou-desktop.6285.8
+exp_log/fang-graph_sage-01_25_22-09-36-06/train_stance_avg_closed_ratio/events.out.tfevents.1643099897.sejmou-desktop.6285.5
+exp_log/fang-graph_sage-01_25_22-09-36-06/train_stance_avg_far_ratio/events.out.tfevents.1643099897.sejmou-desktop.6285.6
+exp_log/fang-graph_sage-01_25_22-09-36-06/train_stance_loss/events.out.tfevents.1643099841.sejmou-desktop.6285.3
+exp_log/fang-graph_sage-01_25_22-10-11-34/00000/node embedding/metadata.tsv
+exp_log/fang-graph_sage-01_25_22-10-11-34/00000/node embedding/tensors.tsv
+exp_log/fang-graph_sage-01_25_22-10-11-34/events.out.tfevents.1643101910.sejmou-desktop.6411.0
+exp_log/fang-graph_sage-01_25_22-10-11-34/projector_config.pbtxt
+exp_log/fang-graph_sage-01_25_22-10-11-34/train_context_loss/events.out.tfevents.1643101964.sejmou-desktop.6411.2
+exp_log/fang-graph_sage-01_25_22-10-11-34/train_grad/events.out.tfevents.1643101964.sejmou-desktop.6411.1
+exp_log/fang-graph_sage-01_25_22-10-11-34/train_news_loss/events.out.tfevents.1643101964.sejmou-desktop.6411.4
+exp_log/fang-graph_sage-01_25_22-10-11-34/train_other_avg_closed_ratio/events.out.tfevents.1643102021.sejmou-desktop.6411.7
+exp_log/fang-graph_sage-01_25_22-10-11-34/train_other_avg_far_ratio/events.out.tfevents.1643102021.sejmou-desktop.6411.8
+exp_log/fang-graph_sage-01_25_22-10-11-34/train_stance_avg_closed_ratio/events.out.tfevents.1643102021.sejmou-desktop.6411.5
+exp_log/fang-graph_sage-01_25_22-10-11-34/train_stance_avg_far_ratio/events.out.tfevents.1643102021.sejmou-desktop.6411.6
+exp_log/fang-graph_sage-01_25_22-10-11-34/train_stance_loss/events.out.tfevents.1643101964.sejmou-desktop.6411.3
+exp_log/fang-graph_sage-01_25_22-10-15-53/00000/node embedding/metadata.tsv
+exp_log/fang-graph_sage-01_25_22-10-15-53/00000/node embedding/tensors.tsv
+exp_log/fang-graph_sage-01_25_22-10-15-53/events.out.tfevents.1643102180.sejmou-desktop.6820.0
+exp_log/fang-graph_sage-01_25_22-10-15-53/projector_config.pbtxt
+exp_log/fang-graph_sage-01_25_22-10-15-53/train_context_loss/events.out.tfevents.1643102263.sejmou-desktop.6820.2
+exp_log/fang-graph_sage-01_25_22-10-15-53/train_grad/events.out.tfevents.1643102263.sejmou-desktop.6820.1
+exp_log/fang-graph_sage-01_25_22-10-15-53/train_news_loss/events.out.tfevents.1643102263.sejmou-desktop.6820.4
+exp_log/fang-graph_sage-01_25_22-10-15-53/train_other_avg_closed_ratio/events.out.tfevents.1643102326.sejmou-desktop.6820.7
+exp_log/fang-graph_sage-01_25_22-10-15-53/train_other_avg_far_ratio/events.out.tfevents.1643102326.sejmou-desktop.6820.8
+exp_log/fang-graph_sage-01_25_22-10-15-53/train_stance_avg_closed_ratio/events.out.tfevents.1643102326.sejmou-desktop.6820.5
+exp_log/fang-graph_sage-01_25_22-10-15-53/train_stance_avg_far_ratio/events.out.tfevents.1643102326.sejmou-desktop.6820.6
+exp_log/fang-graph_sage-01_25_22-10-15-53/train_stance_loss/events.out.tfevents.1643102263.sejmou-desktop.6820.3
+exp_log/fang-graph_sage-01_25_22-14-25-20/00000/node embedding/metadata.tsv
+exp_log/fang-graph_sage-01_25_22-14-25-20/00000/node embedding/tensors.tsv
+exp_log/fang-graph_sage-01_25_22-14-25-20/00047/node embedding/metadata.tsv
+exp_log/fang-graph_sage-01_25_22-14-25-20/00047/node embedding/tensors.tsv
+exp_log/fang-graph_sage-01_25_22-14-25-20/events.out.tfevents.1643117137.sejmou-desktop.13692.0
+exp_log/fang-graph_sage-01_25_22-14-25-20/projector_config.pbtxt
+exp_log/fang-graph_sage-01_25_22-14-25-20/test_accuracy/events.out.tfevents.1643124113.sejmou-desktop.13692.15
+exp_log/fang-graph_sage-01_25_22-14-25-20/test_auc/events.out.tfevents.1643124113.sejmou-desktop.13692.19
+exp_log/fang-graph_sage-01_25_22-14-25-20/test_f1/events.out.tfevents.1643124113.sejmou-desktop.13692.18
+exp_log/fang-graph_sage-01_25_22-14-25-20/test_loss/events.out.tfevents.1643124113.sejmou-desktop.13692.20
+exp_log/fang-graph_sage-01_25_22-14-25-20/test_precision/events.out.tfevents.1643124113.sejmou-desktop.13692.16
+exp_log/fang-graph_sage-01_25_22-14-25-20/test_recall/events.out.tfevents.1643124113.sejmou-desktop.13692.17
+exp_log/fang-graph_sage-01_25_22-14-25-20/train_context_loss/events.out.tfevents.1643117204.sejmou-desktop.13692.2
+exp_log/fang-graph_sage-01_25_22-14-25-20/train_grad/events.out.tfevents.1643117204.sejmou-desktop.13692.1
+exp_log/fang-graph_sage-01_25_22-14-25-20/train_news_loss/events.out.tfevents.1643117204.sejmou-desktop.13692.4
+exp_log/fang-graph_sage-01_25_22-14-25-20/train_other_avg_closed_ratio/events.out.tfevents.1643117304.sejmou-desktop.13692.7
+exp_log/fang-graph_sage-01_25_22-14-25-20/train_other_avg_far_ratio/events.out.tfevents.1643117304.sejmou-desktop.13692.8
+exp_log/fang-graph_sage-01_25_22-14-25-20/train_stance_avg_closed_ratio/events.out.tfevents.1643117304.sejmou-desktop.13692.5
+exp_log/fang-graph_sage-01_25_22-14-25-20/train_stance_avg_far_ratio/events.out.tfevents.1643117304.sejmou-desktop.13692.6
+exp_log/fang-graph_sage-01_25_22-14-25-20/train_stance_loss/events.out.tfevents.1643117204.sejmou-desktop.13692.3
+exp_log/fang-graph_sage-01_25_22-14-25-20/validate_accuracy/events.out.tfevents.1643122836.sejmou-desktop.13692.9
+exp_log/fang-graph_sage-01_25_22-14-25-20/validate_auc/events.out.tfevents.1643122836.sejmou-desktop.13692.13
+exp_log/fang-graph_sage-01_25_22-14-25-20/validate_f1/events.out.tfevents.1643122836.sejmou-desktop.13692.12
+exp_log/fang-graph_sage-01_25_22-14-25-20/validate_loss/events.out.tfevents.1643122836.sejmou-desktop.13692.14
+exp_log/fang-graph_sage-01_25_22-14-25-20/validate_precision/events.out.tfevents.1643122836.sejmou-desktop.13692.10
+exp_log/fang-graph_sage-01_25_22-14-25-20/validate_recall/events.out.tfevents.1643122836.sejmou-desktop.13692.11
+exp_log/fang-graph_sage-01_28_22-20-09-16/00000/node embedding/metadata.tsv
+exp_log/fang-graph_sage-01_28_22-20-09-16/00000/node embedding/tensors.tsv
+exp_log/fang-graph_sage-01_28_22-20-09-16/events.out.tfevents.1643396973.sejmou-desktop.2433.0
+exp_log/fang-graph_sage-01_28_22-20-09-16/projector_config.pbtxt
+exp_log/fang-graph_sage-01_28_22-20-09-16/train_context_loss/events.out.tfevents.1643397035.sejmou-desktop.2433.2
+exp_log/fang-graph_sage-01_28_22-20-09-16/train_grad/events.out.tfevents.1643397035.sejmou-desktop.2433.1
+exp_log/fang-graph_sage-01_28_22-20-09-16/train_news_loss/events.out.tfevents.1643397035.sejmou-desktop.2433.4
+exp_log/fang-graph_sage-01_28_22-20-09-16/train_other_avg_closed_ratio/events.out.tfevents.1643397092.sejmou-desktop.2433.7
+exp_log/fang-graph_sage-01_28_22-20-09-16/train_other_avg_far_ratio/events.out.tfevents.1643397092.sejmou-desktop.2433.8
+exp_log/fang-graph_sage-01_28_22-20-09-16/train_stance_avg_closed_ratio/events.out.tfevents.1643397092.sejmou-desktop.2433.5
+exp_log/fang-graph_sage-01_28_22-20-09-16/train_stance_avg_far_ratio/events.out.tfevents.1643397092.sejmou-desktop.2433.6
+exp_log/fang-graph_sage-01_28_22-20-09-16/train_stance_loss/events.out.tfevents.1643397035.sejmou-desktop.2433.3
+exp_log/fang-graph_sage-01_29_22-15-38-37/00000/node embedding/metadata.tsv
+exp_log/fang-graph_sage-01_29_22-15-38-37/00000/node embedding/tensors.tsv
+exp_log/fang-graph_sage-01_29_22-15-38-37/events.out.tfevents.1643467134.sejmou-desktop.3554.0
+exp_log/fang-graph_sage-01_29_22-15-38-37/projector_config.pbtxt
+exp_log/fang-graph_sage-01_29_22-15-38-37/train_context_loss/events.out.tfevents.1643467173.sejmou-desktop.3554.2
+exp_log/fang-graph_sage-01_29_22-15-38-37/train_grad/events.out.tfevents.1643467173.sejmou-desktop.3554.1
+exp_log/fang-graph_sage-01_29_22-15-38-37/train_news_loss/events.out.tfevents.1643467173.sejmou-desktop.3554.4
+exp_log/fang-graph_sage-01_29_22-15-38-37/train_other_avg_closed_ratio/events.out.tfevents.1643467230.sejmou-desktop.3554.7
+exp_log/fang-graph_sage-01_29_22-15-38-37/train_other_avg_far_ratio/events.out.tfevents.1643467230.sejmou-desktop.3554.8
+exp_log/fang-graph_sage-01_29_22-15-38-37/train_stance_avg_closed_ratio/events.out.tfevents.1643467230.sejmou-desktop.3554.5
+exp_log/fang-graph_sage-01_29_22-15-38-37/train_stance_avg_far_ratio/events.out.tfevents.1643467230.sejmou-desktop.3554.6
+exp_log/fang-graph_sage-01_29_22-15-38-37/train_stance_loss/events.out.tfevents.1643467173.sejmou-desktop.3554.3
+exp_log/fang-graph_sage-01_29_22-16-32-09/00000/node embedding/metadata.tsv
+exp_log/fang-graph_sage-01_29_22-16-32-09/00000/node embedding/tensors.tsv
+exp_log/fang-graph_sage-01_29_22-16-32-09/events.out.tfevents.1643470347.sejmou-desktop.9579.0
+exp_log/fang-graph_sage-01_29_22-16-32-09/projector_config.pbtxt
+exp_log/fang-graph_sage-01_29_22-16-32-09/train_context_loss/events.out.tfevents.1643470366.sejmou-desktop.9579.2
+exp_log/fang-graph_sage-01_29_22-16-32-09/train_grad/events.out.tfevents.1643470366.sejmou-desktop.9579.1
+exp_log/fang-graph_sage-01_29_22-16-32-09/train_news_loss/events.out.tfevents.1643470523.sejmou-desktop.9579.8
+exp_log/fang-graph_sage-01_29_22-16-32-09/train_other_avg_closed_ratio/events.out.tfevents.1643470431.sejmou-desktop.9579.5
+exp_log/fang-graph_sage-01_29_22-16-32-09/train_other_avg_far_ratio/events.out.tfevents.1643470431.sejmou-desktop.9579.6
+exp_log/fang-graph_sage-01_29_22-16-32-09/train_stance_avg_closed_ratio/events.out.tfevents.1643470431.sejmou-desktop.9579.3
+exp_log/fang-graph_sage-01_29_22-16-32-09/train_stance_avg_far_ratio/events.out.tfevents.1643470431.sejmou-desktop.9579.4
+exp_log/fang-graph_sage-01_29_22-16-32-09/train_stance_loss/events.out.tfevents.1643470523.sejmou-desktop.9579.7
+exp_log/fang-graph_sage-01_29_22-16-32-37/00000/node embedding/metadata.tsv
+exp_log/fang-graph_sage-01_29_22-16-32-37/00000/node embedding/tensors.tsv
+exp_log/fang-graph_sage-01_29_22-16-32-37/events.out.tfevents.1643470376.sejmou-desktop.5712.0
+exp_log/fang-graph_sage-01_29_22-16-32-37/projector_config.pbtxt
+exp_log/fang-graph_sage-01_29_22-16-32-37/train_context_loss/events.out.tfevents.1643470406.sejmou-desktop.5712.2
+exp_log/fang-graph_sage-01_29_22-16-32-37/train_grad/events.out.tfevents.1643470406.sejmou-desktop.5712.1
+exp_log/fang-graph_sage-01_29_22-16-32-37/train_news_loss/events.out.tfevents.1643470406.sejmou-desktop.5712.4
+exp_log/fang-graph_sage-01_29_22-16-32-37/train_other_avg_closed_ratio/events.out.tfevents.1643470459.sejmou-desktop.5712.7
+exp_log/fang-graph_sage-01_29_22-16-32-37/train_other_avg_far_ratio/events.out.tfevents.1643470459.sejmou-desktop.5712.8
+exp_log/fang-graph_sage-01_29_22-16-32-37/train_stance_avg_closed_ratio/events.out.tfevents.1643470459.sejmou-desktop.5712.5
+exp_log/fang-graph_sage-01_29_22-16-32-37/train_stance_avg_far_ratio/events.out.tfevents.1643470459.sejmou-desktop.5712.6
+exp_log/fang-graph_sage-01_29_22-16-32-37/train_stance_loss/events.out.tfevents.1643470406.sejmou-desktop.5712.3
+exp_log/fang-graph_sage-01_29_22-18-34-59/00000/node embedding/metadata.tsv
+exp_log/fang-graph_sage-01_29_22-18-34-59/00000/node embedding/tensors.tsv
+exp_log/fang-graph_sage-01_29_22-18-34-59/events.out.tfevents.1643477719.sejmou-desktop.11680.0
+exp_log/fang-graph_sage-01_29_22-18-34-59/projector_config.pbtxt
+fang/__pycache__/__init__.cpython-37.pyc
+fang/__pycache__/config.cpython-37.pyc
+fang/__pycache__/dataset.cpython-37.pyc
+fang/__pycache__/utils.cpython-37.pyc
+fang/graphsage/__pycache__/__init__.cpython-37.pyc
+fang/graphsage/__pycache__/models.cpython-37.pyc
+fang/graphsage/__pycache__/walker.cpython-37.pyc
+graph/__pycache__/__init__.cpython-37.pyc
+graph/gcn/__pycache__/__init__.cpython-37.pyc
+graph/gcn/__pycache__/layers.cpython-37.pyc
+graph/ngcn/__pycache__/__init__.cpython-37.pyc
+graph/ngcn/__pycache__/model.cpython-37.pyc
+training/__pycache__/__init__.cpython-37.pyc
+training/__pycache__/__init__.cpython-39.pyc
+training/__pycache__/configs.cpython-37.pyc
+training/__pycache__/configs.cpython-39.pyc
+training/__pycache__/evaluator.cpython-37.pyc
+training/__pycache__/news_graph.cpython-37.pyc
+training/__pycache__/news_graph.cpython-39.pyc
+training/__pycache__/utils.cpython-37.pyc
+user_embed/__pycache__/__init__.cpython-37.pyc
+user_embed/graphsage/__pycache__/__init__.cpython-37.pyc
+user_embed/graphsage/__pycache__/layers.cpython-37.pyc
+user_embed/graphsage/__pycache__/models.cpython-37.pyc
+(base) ]0;sejmou@sejmou-desktop: ~/Repos/Uni/ExpDesDS/FANG_original[01;32msejmou@sejmou-desktop[00m:[01;34m~/Repos/Uni/ExpDesDS/FANG_original[00m$ exit
+exit
+
+Script done on 2022-01-29 18:54:37+01:00 [COMMAND_EXIT_CODE="0"]

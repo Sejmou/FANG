@@ -1,0 +1,88 @@
+Script started on 2022-01-25 09:31:55+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="203" LINES="55"]
+(base) ]0;sejmou@sejmou-desktop: ~/Repos/Uni/ExpDesDS/FANG[01;32msejmou@sejmou-desktop[00m:[01;34m~/Repos/Uni/ExpDesDS/FANG[00m$ time python run_graph.py -t fang -m graph_sage -p data/news_graph --percent 90 --epochs=30 --attention --use-stance --use-proximity --temporal[1P[1@1
+Traceback (most recent call last):
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/run_graph.py", line 3, in <module>
+    from training.news_graph import run_news_graph
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/training/news_graph.py", line 1, in <module>
+    from dataset.news_graph import NewsGraph
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/dataset/news_graph.py", line 4, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+
+real	0m0,347s
+user	0m0,101s
+sys	0m0,077s
+(base) ]0;sejmou@sejmou-desktop: ~/Repos/Uni/ExpDesDS/FANG[01;32msejmou@sejmou-desktop[00m:[01;34m~/Repos/Uni/ExpDesDS/FANG[00m$ conda activate test
+(test) ]0;sejmou@sejmou-desktop: ~/Repos/Uni/ExpDesDS/FANG[01;32msejmou@sejmou-desktop[00m:[01;34m~/Repos/Uni/ExpDesDS/FANG[00m$ python run_graph.py -t fang -m graph_sage -p data/news_graph --percent 90 --epochs=30 --attention --use-stance --use-proximity --temporal
+Using stance
+Using proximity
+Load FANG dataset from data/news_graph
+/home/sejmou/Repos/Uni/ExpDesDS/FANG/fang/utils.py:98: RuntimeWarning: divide by zero encountered in power
+  sum_inv = np.power(row_sum, -1).flatten()
+Creating new far node cache with capacity 20000
+Use temporal
+Initialize optimizer with weight decay 0.0005
+Train 55858 Dev 51 Test 48
+Training GraphSage:   0%|                                                                                                                                                           | 0/30 [00:00<?, ?it/s]
+Sampling news batches:   0%|                                                                                                                                                        | 0/47 [00:00<?, ?it/s][A{'grad': 1.709206610918045, 'context_loss': 8.043120384216309, 'stance_loss': 1.3777247667312622, 'news_loss': 0.6983992457389832}
+
+
+Validating rep learning:   0%|                                                                                                                                                    | 0/2211 [00:00<?, ?it/s][A[A
+
+Validating rep learning:   9%|███████████▉                                                                                                                            | 194/2211 [00:00<00:01, 1937.06it/s][A[A
+
+Validating rep learning:  18%|████████████████████████▉                                                                                                               | 405/2211 [00:00<00:00, 1985.81it/s][A[A
+
+Validating rep learning:  27%|█████████████████████████████████████▏                                                                                                  | 604/2211 [00:00<00:00, 1985.62it/s][A[A
+
+Validating rep learning:  36%|█████████████████████████████████████████████████                                                                                       | 797/2211 [00:00<00:00, 1968.35it/s][A[A
+
+Validating rep learning:  45%|█████████████████████████████████████████████████████████████                                                                           | 993/2211 [00:00<00:00, 1963.25it/s][A[A
+
+Validating rep learning:  53%|███████████████████████████████████████████████████████████████████████▉                                                               | 1179/2211 [00:00<00:00, 1930.98it/s][A[A
+
+Validating rep learning:  62%|███████████████████████████████████████████████████████████████████████████████████▌                                                   | 1368/2211 [00:00<00:00, 1918.07it/s][A[A
+
+Validating rep learning:  71%|███████████████████████████████████████████████████████████████████████████████████████████████▏                                       | 1559/2211 [00:00<00:00, 1912.72it/s][A[A
+
+Validating rep learning:  79%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▏                            | 1740/2211 [00:00<00:00, 1871.13it/s][A[A
+
+Validating rep learning:  87%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                 | 1930/2211 [00:01<00:00, 1877.96it/s][A[A
+
+Validating rep learning:  96%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏     | 2116/2211 [00:01<00:00, 1871.57it/s][A[AValidating rep learning: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2211/2211 [00:01<00:00, 1911.88it/s]
+{'stance_avg_closed_ratio': 0.9920948510920466, 'stance_avg_far_ratio': 1.0052186485333863, 'other_avg_closed_ratio': 1.0316682723638084, 'other_avg_far_ratio': 0.0}
+
+Sampling news batches:   2%|███                                                                                                                                          | 1/47 [01:45<1:20:42, 105.28s/it][A^CSampling news batches:   2%|███                                                                                                                                          | 1/47 [01:59<1:31:24, 119.23s/it]
+Training GraphSage:   0%|                                                                                                                                                           | 0/30 [01:59<?, ?it/s]
+Traceback (most recent call last):
+  File "run_graph.py", line 67, in <module>
+    fang(p_args)
+  File "run_graph.py", line 55, in fang
+    pretrained_dir=args.pretrained_dir, pretrained_step=args.pretrained_step)
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/fang/graphsage/__init__.py", line 227, in run_fang_graph_sage
+    n_nodes, input_size, pretrained_dir, pretrained_step)
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/fang/graphsage/__init__.py", line 443, in train_fn
+    infer_news_emb(extended_news_batch)
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/fang/graphsage/__init__.py", line 281, in infer_news_emb
+    embed_size, device, return_user_batch=True)
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/fang/graphsage/__init__.py", line 741, in preprocess_news_classification_data
+    else torch.zeros(1, embed_size).to(device) for e_users in engage_users_batch]
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/fang/graphsage/__init__.py", line 741, in <listcomp>
+    else torch.zeros(1, embed_size).to(device) for e_users in engage_users_batch]
+  File "/home/sejmou/anaconda3/envs/test/lib/python3.7/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/user_embed/graphsage/models.py", line 45, in forward
+    lower_layer_nodes, num_sample=layer_num_samples[i])
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/user_embed/graphsage/models.py", line 77, in _get_unique_neighs_list
+    to_neighs = [self.get_neigh_weights(int(node), node_only=True) for node in nodes]
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/user_embed/graphsage/models.py", line 77, in <listcomp>
+    to_neighs = [self.get_neigh_weights(int(node), node_only=True) for node in nodes]
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/fang/graphsage/models.py", line 19, in get_neigh_weights
+    return set([int(x.split("#")[0]) for x in neighs])
+  File "/home/sejmou/Repos/Uni/ExpDesDS/FANG/fang/graphsage/models.py", line 19, in <listcomp>
+    return set([int(x.split("#")[0]) for x in neighs])
+KeyboardInterrupt
+(test) ]0;sejmou@sejmou-desktop: ~/Repos/Uni/ExpDesDS/FANG[01;32msejmou@sejmou-desktop[00m:[01;34m~/Repos/Uni/ExpDesDS/FANG[00m$ exit
+exit
+
+Script done on 2022-01-25 09:35:07+01:00 [COMMAND_EXIT_CODE="1"]
