@@ -1,4 +1,4 @@
-# Factual News Graph (FANG) - Repdroducibility Experiments
+# Factual News Graph (FANG) - Reproducibility Experiments
 ***Note:*** *This repository is a fork of the [FANG](https://github.com/nguyenvanhoang7398/FANG) code repository. The only difference to that repository (as of January 29, 2022) is the additional `reproducibility-experiments` folder containing logfiles/scripts documenting attempts to reproduce the results reported in the FANG [paper](https://arxiv.org/abs/2008.07939)*
 
 This is the implementation of FANG - a graph representation learning framework for fake news detection. 
