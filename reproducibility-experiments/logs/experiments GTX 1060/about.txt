@@ -1,0 +1,6 @@
+All the logfiles in this folder are logs of FANG's graph.py on the same system.
+
+Specs: 
+* CPU: Intel Core i5-6500 (4 x 3.20GHz)
+* RAM: 15.6 GiB DDR4
+* GPU: NVIDIA G106[GeForece GTX 1060 6GB]
