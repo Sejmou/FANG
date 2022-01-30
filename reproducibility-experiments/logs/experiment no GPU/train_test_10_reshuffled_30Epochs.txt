@@ -1,0 +1,315 @@
+/home/fagus/Desktop/FANG/fang/utils.py:98: RuntimeWarning: divide by zero encountered in power
+  sum_inv = np.power(row_sum, -1).flatten()
+Training GraphSage:   0%|          | 0/30 [00:00<?, ?it/s]
+Sampling news batches:   0%|          | 0/47 [00:00<?, ?it/s][A
+
+Validating rep learning:   0%|          | 0/2211 [00:00<?, ?it/s][A[A
+
+Validating rep learning:  10%|█         | 223/2211 [00:00<00:00, 2226.07it/s][A[A
+
+Validating rep learning:  21%|██▏       | 472/2211 [00:00<00:00, 2298.91it/s][A[A
+
+Validating rep learning:  32%|███▏      | 704/2211 [00:00<00:00, 2304.50it/s][A[A
+
+Validating rep learning:  42%|████▏     | 927/2211 [00:00<00:00, 2281.04it/s][A[A
+
+Validating rep learning:  52%|█████▏    | 1150/2211 [00:00<00:00, 2263.75it/s][A[A
+
+Validating rep learning:  62%|██████▏   | 1369/2211 [00:00<00:00, 2239.68it/s][A[A
+
+Validating rep learning:  72%|███████▏  | 1587/2211 [00:00<00:00, 2219.31it/s][A[A
+
+Validating rep learning:  82%|████████▏ | 1807/2211 [00:00<00:00, 2210.46it/s][A[A
+
+Validating rep learning:  92%|█████████▏| 2026/2211 [00:00<00:00, 2201.78it/s][A[AValidating rep learning: 100%|██████████| 2211/2211 [00:00<00:00, 2240.15it/s]
+
+Sampling news batches:   2%|▏         | 1/47 [01:49<1:24:11, 109.82s/it][A
+Sampling news batches:   4%|▍         | 2/47 [02:28<1:06:24, 88.55s/it] [A
+Sampling news batches:   6%|▋         | 3/47 [03:00<52:22, 71.43s/it]  [A
+Sampling news batches:   9%|▊         | 4/47 [03:41<44:37, 62.27s/it][A
+Sampling news batches:  11%|█         | 5/47 [04:25<39:53, 57.00s/it][A
+Sampling news batches:  13%|█▎        | 6/47 [05:09<36:10, 52.94s/it][A
+Sampling news batches:  15%|█▍        | 7/47 [05:59<34:43, 52.09s/it][A
+Sampling news batches:  17%|█▋        | 8/47 [07:29<41:13, 63.43s/it][A
+Sampling news batches:  19%|█▉        | 9/47 [08:38<41:11, 65.04s/it][A
+Sampling news batches:  21%|██▏       | 10/47 [09:28<37:26, 60.72s/it][A
+Sampling news batches:  23%|██▎       | 11/47 [11:38<48:47, 81.31s/it][A
+Sampling news batches:  26%|██▌       | 12/47 [13:30<52:53, 90.67s/it][A
+Sampling news batches:  28%|██▊       | 13/47 [15:50<59:47, 105.52s/it][A
+Sampling news batches:  30%|██▉       | 14/47 [16:29<46:56, 85.35s/it] [A
+Sampling news batches:  32%|███▏      | 15/47 [17:44<43:52, 82.28s/it][A
+Sampling news batches:  34%|███▍      | 16/47 [21:36<1:05:50, 127.43s/it][A
+Sampling news batches:  36%|███▌      | 17/47 [22:32<52:56, 105.88s/it]  [A
+Sampling news batches:  38%|███▊      | 18/47 [25:13<59:09, 122.41s/it][A
+Sampling news batches:  40%|████      | 19/47 [28:00<1:03:21, 135.76s/it][A
+Sampling news batches:  43%|████▎     | 20/47 [29:32<55:08, 122.53s/it]  [A
+Sampling news batches:  45%|████▍     | 21/47 [30:10<42:06, 97.17s/it] [A
+Sampling news batches:  47%|████▋     | 22/47 [32:09<43:18, 103.92s/it][A
+Sampling news batches:  49%|████▉     | 23/47 [35:51<55:42, 139.29s/it][A
+Sampling news batches:  51%|█████     | 24/47 [38:18<54:17, 141.64s/it][A
+Sampling news batches:  53%|█████▎    | 25/47 [39:03<41:18, 112.68s/it][A
+Sampling news batches:  55%|█████▌    | 26/47 [42:13<47:28, 135.65s/it][A
+Sampling news batches:  57%|█████▋    | 27/47 [44:21<44:29, 133.50s/it][A
+Sampling news batches:  60%|█████▉    | 28/47 [46:13<40:14, 127.08s/it][A
+Sampling news batches:  62%|██████▏   | 29/47 [47:27<33:22, 111.24s/it][A
+Sampling news batches:  64%|██████▍   | 30/47 [50:09<35:47, 126.35s/it][A
+Sampling news batches:  66%|██████▌   | 31/47 [53:18<38:42, 145.18s/it][A
+Sampling news batches:  68%|██████▊   | 32/47 [53:57<28:19, 113.32s/it][A
+Sampling news batches:  70%|███████   | 33/47 [58:09<36:06, 154.75s/it][A
+Sampling news batches:  72%|███████▏  | 34/47 [59:54<30:17, 139.83s/it][A
+Sampling news batches:  74%|███████▍  | 35/47 [1:00:59<23:31, 117.66s/it][A
+Sampling news batches:  77%|███████▋  | 36/47 [1:03:26<23:09, 126.29s/it][A
+Sampling news batches:  79%|███████▊  | 37/47 [1:06:00<22:26, 134.65s/it][A
+Sampling news batches:  81%|████████  | 38/47 [1:08:45<21:33, 143.75s/it][A
+Sampling news batches:  83%|████████▎ | 39/47 [1:11:31<20:03, 150.45s/it][A
+Sampling news batches:  85%|████████▌ | 40/47 [1:14:27<18:25, 157.99s/it][A
+
+Validating rep learning:   0%|          | 0/2211 [00:00<?, ?it/s][A[A
+
+Validating rep learning:   9%|▉         | 205/2211 [00:00<00:00, 2045.44it/s][A[A
+
+Validating rep learning:  20%|██        | 453/2211 [00:00<00:00, 2158.30it/s][A[A
+
+Validating rep learning:  31%|███       | 688/2211 [00:00<00:00, 2211.89it/s][A[A
+
+Validating rep learning:  41%|████▏     | 913/2211 [00:00<00:00, 2222.87it/s][A[A
+
+Validating rep learning:  51%|█████▏    | 1138/2211 [00:00<00:00, 2228.60it/s][A[A
+
+Validating rep learning:  61%|██████▏   | 1358/2211 [00:00<00:00, 2219.42it/s][A[A
+
+Validating rep learning:  71%|███████▏  | 1578/2211 [00:00<00:00, 2211.69it/s][A[A
+
+Validating rep learning:  81%|████████  | 1791/2211 [00:00<00:00, 2184.24it/s][A[A
+
+Validating rep learning:  91%|█████████ | 2011/2211 [00:00<00:00, 2188.89it/s][A[AValidating rep learning: 100%|██████████| 2211/2211 [00:00<00:00, 2227.38it/s]
+
+Sampling news batches:  87%|████████▋ | 41/47 [1:18:16<17:55, 179.27s/it][A
+Sampling news batches:  89%|████████▉ | 42/47 [1:20:15<13:26, 161.37s/it][A
+Sampling news batches:  91%|█████████▏| 43/47 [1:22:38<10:22, 155.73s/it][A
+Sampling news batches:  94%|█████████▎| 44/47 [1:26:11<08:38, 172.97s/it][A
+Sampling news batches:  96%|█████████▌| 45/47 [1:29:38<06:06, 183.26s/it][A
+Sampling news batches:  98%|█████████▊| 46/47 [1:32:23<02:57, 177.63s/it][A
+Sampling news batches: 100%|██████████| 47/47 [1:32:46<00:00, 131.26s/it][ASampling news batches: 100%|██████████| 47/47 [1:32:46<00:00, 118.43s/it]
+
+Exporting node embedding to Tensorboard:   0%|          | 0/1496 [00:00<?, ?it/s][A
+Exporting node embedding to Tensorboard:  17%|█▋        | 256/1496 [02:35<12:31,  1.65it/s][A
+Exporting node embedding to Tensorboard:  34%|███▍      | 512/1496 [03:11<07:38,  2.14it/s][A
+Exporting node embedding to Tensorboard:  51%|█████▏    | 768/1496 [03:44<04:26,  2.73it/s][A
+Exporting node embedding to Tensorboard:  68%|██████▊   | 1024/1496 [04:19<02:20,  3.37it/s][A
+Exporting node embedding to Tensorboard:  86%|████████▌ | 1280/1496 [04:53<00:53,  4.04it/s][AExporting node embedding to Tensorboard: 100%|██████████| 1496/1496 [04:53<00:00,  5.10it/s]
+Training GraphSage:   3%|▎         | 1/30 [6:26:25<186:46:05, 23185.02s/it]
+Sampling news batches:   0%|          | 0/47 [00:00<?, ?it/s][A
+Sampling news batches:   2%|▏         | 1/47 [02:25<1:51:47, 145.81s/it][A
+Sampling news batches:   4%|▍         | 2/47 [09:01<2:45:36, 220.81s/it][A
+Sampling news batches:   6%|▋         | 3/47 [09:49<2:03:47, 168.81s/it][A
+Sampling news batches:   9%|▊         | 4/47 [14:51<2:29:37, 208.79s/it][A
+Sampling news batches:  11%|█         | 5/47 [20:41<2:55:52, 251.24s/it][A
+Sampling news batches:  13%|█▎        | 6/47 [21:54<2:15:09, 197.78s/it][A
+Sampling news batches:  15%|█▍        | 7/47 [27:00<2:33:34, 230.37s/it][A
+Sampling news batches:  17%|█▋        | 8/47 [31:49<2:41:06, 247.87s/it][A
+Sampling news batches:  19%|█▉        | 9/47 [33:21<2:07:19, 201.03s/it][A
+Sampling news batches:  21%|██▏       | 10/47 [39:01<2:29:38, 242.67s/it][A
+Sampling news batches:  23%|██▎       | 11/47 [45:01<2:46:43, 277.87s/it][A
+Sampling news batches:  26%|██▌       | 12/47 [50:19<2:49:11, 290.04s/it][A
+Sampling news batches:  28%|██▊       | 13/47 [50:50<2:00:20, 212.37s/it][A
+Sampling news batches:  30%|██▉       | 14/47 [54:18<1:56:06, 211.12s/it][A
+Sampling news batches:  32%|███▏      | 15/47 [58:59<2:03:42, 231.97s/it][A
+Sampling news batches:  34%|███▍      | 16/47 [1:00:28<1:37:37, 188.94s/it][A
+Sampling news batches:  36%|███▌      | 17/47 [1:05:15<1:49:16, 218.56s/it][A
+Sampling news batches:  38%|███▊      | 18/47 [1:11:23<2:07:14, 263.27s/it][A
+Sampling news batches:  40%|████      | 19/47 [1:15:20<1:59:15, 255.55s/it][A
+Sampling news batches:  43%|████▎     | 20/47 [1:17:05<1:34:39, 210.34s/it][A
+Sampling news batches:  45%|████▍     | 21/47 [1:21:26<1:37:40, 225.40s/it][A
+Sampling news batches:  47%|████▋     | 22/47 [1:27:11<1:48:53, 261.32s/it][A
+Sampling news batches:  49%|████▉     | 23/47 [1:30:29<1:36:59, 242.48s/it][A
+Sampling news batches:  51%|█████     | 24/47 [1:37:22<1:52:32, 293.57s/it][A
+Sampling news batches:  53%|█████▎    | 25/47 [1:43:09<1:53:27, 309.43s/it][A
+Sampling news batches:  55%|█████▌    | 26/47 [1:49:04<1:53:10, 323.34s/it][A
+Sampling news batches:  57%|█████▋    | 27/47 [1:51:04<1:27:26, 262.31s/it][A
+Sampling news batches:  60%|█████▉    | 28/47 [1:54:51<1:19:41, 251.65s/it][A
+Sampling news batches:  62%|██████▏   | 29/47 [2:00:26<1:22:59, 276.61s/it][A
+Sampling news batches:  64%|██████▍   | 30/47 [2:07:49<1:32:31, 326.56s/it][A
+Sampling news batches:  66%|██████▌   | 31/47 [2:10:02<1:11:33, 268.33s/it][A
+Sampling news batches:  68%|██████▊   | 32/47 [2:14:17<1:06:07, 264.50s/it][A
+Sampling news batches:  70%|███████   | 33/47 [2:20:57<1:11:10, 305.03s/it][A
+
+Validating rep learning:   0%|          | 0/2211 [00:00<?, ?it/s][A[A
+
+Validating rep learning:   1%|          | 12/2211 [00:00<00:18, 119.38it/s][A[A
+
+Validating rep learning:   8%|▊         | 166/2211 [00:00<00:12, 165.04it/s][A[A
+
+Validating rep learning:  18%|█▊        | 403/2211 [00:00<00:07, 228.92it/s][A[A
+
+Validating rep learning:  26%|██▌       | 570/2211 [00:00<00:05, 308.82it/s][A[A
+
+Validating rep learning:  35%|███▍      | 763/2211 [00:00<00:03, 412.76it/s][A[A
+
+Validating rep learning:  44%|████▍     | 983/2211 [00:00<00:02, 545.74it/s][A[A
+
+Validating rep learning:  53%|█████▎    | 1181/2211 [00:00<00:01, 697.02it/s][A[A
+
+Validating rep learning:  63%|██████▎   | 1394/2211 [00:00<00:00, 873.03it/s][A[A
+
+Validating rep learning:  73%|███████▎  | 1610/2211 [00:00<00:00, 1063.00it/s][A[A
+
+Validating rep learning:  83%|████████▎ | 1828/2211 [00:01<00:00, 1255.92it/s][A[A
+
+Validating rep learning:  92%|█████████▏| 2032/2211 [00:01<00:00, 1418.27it/s][A[AValidating rep learning: 100%|██████████| 2211/2211 [00:01<00:00, 1864.92it/s]
+
+Sampling news batches:  72%|███████▏  | 34/47 [2:27:56<1:13:29, 339.18s/it][A
+Sampling news batches:  74%|███████▍  | 35/47 [2:33:13<1:06:31, 332.62s/it][A
+Sampling news batches:  77%|███████▋  | 36/47 [2:34:59<48:30, 264.55s/it]  [A
+Sampling news batches:  79%|███████▊  | 37/47 [2:38:41<41:58, 251.89s/it][A
+Sampling news batches:  81%|████████  | 38/47 [2:42:52<37:44, 251.64s/it][A
+Sampling news batches:  83%|████████▎ | 39/47 [2:46:44<32:45, 245.71s/it][A
+Sampling news batches:  85%|████████▌ | 40/47 [2:47:42<22:06, 189.43s/it][A
+Sampling news batches:  87%|████████▋ | 41/47 [2:52:46<22:23, 223.89s/it][A
+Sampling news batches:  89%|████████▉ | 42/47 [2:57:47<20:34, 246.95s/it][A
+Sampling news batches:  91%|█████████▏| 43/47 [2:59:12<13:13, 198.46s/it][A
+Sampling news batches:  94%|█████████▎| 44/47 [3:06:02<13:05, 261.72s/it][A
+Sampling news batches:  96%|█████████▌| 45/47 [3:12:03<09:43, 291.71s/it][A
+Sampling news batches:  98%|█████████▊| 46/47 [3:20:51<06:02, 362.46s/it][A
+Sampling news batches: 100%|██████████| 47/47 [3:22:08<00:00, 276.70s/it][ASampling news batches: 100%|██████████| 47/47 [3:22:08<00:00, 258.04s/it]
+
+Exporting node embedding to Tensorboard:   0%|          | 0/1496 [00:00<?, ?it/s][A
+Exporting node embedding to Tensorboard:  17%|█▋        | 256/1496 [01:02<05:04,  4.07it/s][A
+Exporting node embedding to Tensorboard:  34%|███▍      | 512/1496 [01:42<03:35,  4.57it/s][A
+Exporting node embedding to Tensorboard:  51%|█████▏    | 768/1496 [08:18<07:29,  1.62it/s][A
+Exporting node embedding to Tensorboard:  68%|██████▊   | 1024/1496 [08:58<03:46,  2.09it/s][A
+Exporting node embedding to Tensorboard:  86%|████████▌ | 1280/1496 [09:32<01:21,  2.67it/s][AExporting node embedding to Tensorboard: 100%|██████████| 1496/1496 [09:32<00:00,  2.61it/s]
+Training GraphSage:   7%|▋         | 2/30 [18:20:21<226:10:52, 29080.43s/it]
+Sampling news batches:   0%|          | 0/47 [00:00<?, ?it/s][A
+Sampling news batches:   2%|▏         | 1/47 [01:05<50:16, 65.57s/it][A
+Sampling news batches:   4%|▍         | 2/47 [06:01<1:41:06, 134.80s/it][A
+Sampling news batches:   6%|▋         | 3/47 [14:07<2:56:02, 240.06s/it][A
+Sampling news batches:   9%|▊         | 4/47 [23:28<4:00:56, 336.20s/it][A
+Sampling news batches:  11%|█         | 5/47 [24:35<2:58:56, 255.63s/it][A
+Sampling news batches:  13%|█▎        | 6/47 [33:56<3:57:18, 347.29s/it][A
+Sampling news batches:  15%|█▍        | 7/47 [44:06<4:44:00, 426.02s/it][A
+Sampling news batches:  17%|█▋        | 8/47 [47:46<3:56:41, 364.14s/it][A
+Sampling news batches:  19%|█▉        | 9/47 [59:44<4:57:54, 470.37s/it][A
+Sampling news batches:  21%|██▏       | 10/47 [1:10:28<5:22:07, 522.36s/it][A
+Sampling news batches:  23%|██▎       | 11/47 [1:11:37<3:51:54, 386.52s/it][A
+Sampling news batches:  26%|██▌       | 12/47 [1:21:45<4:24:05, 452.73s/it][A
+Sampling news batches:  28%|██▊       | 13/47 [1:34:39<5:11:14, 549.25s/it][A
+Sampling news batches:  30%|██▉       | 14/47 [1:46:51<5:32:15, 604.12s/it][A
+Sampling news batches:  32%|███▏      | 15/47 [1:49:56<4:15:02, 478.20s/it][A
+Sampling news batches:  34%|███▍      | 16/47 [2:02:41<4:51:31, 564.24s/it][A
+Sampling news batches:  36%|███▌      | 17/47 [2:14:11<5:01:01, 602.04s/it][A
+Sampling news batches:  38%|███▊      | 18/47 [2:15:26<3:34:32, 443.86s/it][A
+Sampling news batches:  40%|████      | 19/47 [2:28:00<4:10:37, 537.05s/it][A
+Sampling news batches:  43%|████▎     | 20/47 [2:38:24<4:13:22, 563.05s/it][A
+Sampling news batches:  45%|████▍     | 21/47 [2:40:49<3:09:39, 437.68s/it][A
+Sampling news batches:  47%|████▋     | 22/47 [2:54:11<3:47:58, 547.12s/it][A
+Sampling news batches:  49%|████▉     | 23/47 [3:06:17<4:00:18, 600.76s/it][A
+Sampling news batches:  51%|█████     | 24/47 [3:19:38<4:13:16, 660.72s/it][A
+Sampling news batches:  53%|█████▎    | 25/47 [3:20:26<2:54:54, 477.00s/it][A
+Sampling news batches:  55%|█████▌    | 26/47 [3:30:52<3:02:32, 521.55s/it][A
+
+Validating rep learning:   0%|          | 0/2211 [00:00<?, ?it/s][A[A
+
+Validating rep learning:   7%|▋         | 150/2211 [00:00<00:01, 1499.31it/s][A[A
+
+Validating rep learning:  18%|█▊        | 406/2211 [00:00<00:01, 1710.62it/s][A[A
+
+Validating rep learning:  29%|██▉       | 640/2211 [00:00<00:00, 1860.49it/s][A[A
+
+Validating rep learning:  39%|███▉      | 866/2211 [00:00<00:00, 1964.49it/s][A[A
+
+Validating rep learning:  49%|████▉     | 1092/2211 [00:00<00:00, 2042.47it/s][A[A
+
+Validating rep learning:  59%|█████▉    | 1311/2211 [00:00<00:00, 2084.14it/s][A[A
+
+Validating rep learning:  69%|██████▉   | 1530/2211 [00:00<00:00, 2113.40it/s][A[A
+
+Validating rep learning:  79%|███████▉  | 1750/2211 [00:00<00:00, 2137.60it/s][A[A
+
+Validating rep learning:  89%|████████▉ | 1970/2211 [00:00<00:00, 2155.38it/s][A[A
+
+Validating rep learning:  99%|█████████▊| 2182/2211 [00:01<00:00, 2113.53it/s][A[AValidating rep learning: 100%|██████████| 2211/2211 [00:01<00:00, 2168.25it/s]
+
+Sampling news batches:  57%|█████▋    | 27/47 [3:46:42<3:36:41, 650.07s/it][A
+Sampling news batches:  60%|█████▉    | 28/47 [3:57:58<3:28:18, 657.80s/it][A
+Sampling news batches:  62%|██████▏   | 29/47 [4:09:24<3:19:54, 666.36s/it][A
+Sampling news batches:  64%|██████▍   | 30/47 [4:11:20<2:22:01, 501.25s/it][A
+Sampling news batches:  66%|██████▌   | 31/47 [4:24:17<2:35:42, 583.89s/it][A
+Sampling news batches:  68%|██████▊   | 32/47 [4:34:51<2:29:43, 598.92s/it][A
+Sampling news batches:  70%|███████   | 33/47 [4:37:52<1:50:30, 473.62s/it][A
+Sampling news batches:  72%|███████▏  | 34/47 [4:49:56<1:58:53, 548.70s/it][A
+Sampling news batches:  74%|███████▍  | 35/47 [5:02:00<2:00:17, 601.45s/it][A
+Sampling news batches:  77%|███████▋  | 36/47 [5:05:21<1:28:14, 481.29s/it][A
+Sampling news batches:  79%|███████▊  | 37/47 [5:16:54<1:30:48, 544.84s/it][A
+Sampling news batches:  81%|████████  | 38/47 [5:29:15<1:30:31, 603.51s/it][A
+Sampling news batches:  83%|████████▎ | 39/47 [5:44:43<1:33:28, 701.06s/it][A
+Sampling news batches:  85%|████████▌ | 40/47 [5:48:21<1:04:52, 556.11s/it][A
+Sampling news batches:  87%|████████▋ | 41/47 [5:58:28<57:07, 571.19s/it]  [A
+Sampling news batches:  89%|████████▉ | 42/47 [6:12:12<53:55, 647.02s/it][A
+Sampling news batches:  91%|█████████▏| 43/47 [6:13:37<31:54, 478.52s/it][A
+Sampling news batches:  94%|█████████▎| 44/47 [6:25:51<27:45, 555.06s/it][A
+Sampling news batches:  96%|█████████▌| 45/47 [6:38:09<20:19, 609.93s/it][A
+Sampling news batches:  98%|█████████▊| 46/47 [6:40:49<07:55, 475.07s/it][A
+Sampling news batches: 100%|██████████| 47/47 [6:52:33<00:00, 543.69s/it][ASampling news batches: 100%|██████████| 47/47 [6:52:33<00:00, 526.67s/it]
+
+Exporting node embedding to Tensorboard:   0%|          | 0/1496 [00:00<?, ?it/s][A
+Exporting node embedding to Tensorboard:  17%|█▋        | 256/1496 [00:57<04:40,  4.42it/s][A
+Exporting node embedding to Tensorboard:  34%|███▍      | 512/1496 [10:20<13:24,  1.22it/s][A
+Exporting node embedding to Tensorboard:  51%|█████▏    | 768/1496 [11:07<07:36,  1.59it/s][A
+Exporting node embedding to Tensorboard:  68%|██████▊   | 1024/1496 [11:45<03:48,  2.07it/s][A
+Exporting node embedding to Tensorboard:  86%|████████▌ | 1280/1496 [19:09<03:05,  1.16it/s][AExporting node embedding to Tensorboard: 100%|██████████| 1496/1496 [19:09<00:00,  1.30it/s]
+Training GraphSage:  10%|█         | 3/30 [35:54:12<294:56:33, 39325.68s/it]
+Sampling news batches:   0%|          | 0/47 [00:00<?, ?it/s][A
+Sampling news batches:   2%|▏         | 1/47 [05:30<4:13:36, 330.80s/it][A
+Sampling news batches:   4%|▍         | 2/47 [08:51<3:38:52, 291.84s/it][A
+Sampling news batches:   6%|▋         | 3/47 [17:02<4:17:46, 351.52s/it][A
+Sampling news batches:   9%|▊         | 4/47 [25:08<4:40:52, 391.91s/it][A
+Sampling news batches:  11%|█         | 5/47 [28:38<3:56:08, 337.34s/it][A
+Sampling news batches:  13%|█▎        | 6/47 [39:03<4:49:32, 423.71s/it][A
+Sampling news batches:  15%|█▍        | 7/47 [49:52<5:27:30, 491.25s/it][A
+Sampling news batches:  17%|█▋        | 8/47 [1:01:15<5:56:44, 548.84s/it][A
+Sampling news batches:  19%|█▉        | 9/47 [1:04:11<4:36:38, 436.79s/it][A
+Sampling news batches:  21%|██▏       | 10/47 [1:17:08<5:32:18, 538.88s/it][A
+Sampling news batches:  23%|██▎       | 11/47 [1:29:01<5:54:45, 591.28s/it][A
+Sampling news batches:  26%|██▌       | 12/47 [1:31:21<4:25:48, 455.68s/it][A
+Sampling news batches:  28%|██▊       | 13/47 [1:45:29<5:24:53, 573.33s/it][A
+Sampling news batches:  30%|██▉       | 14/47 [2:00:21<6:08:03, 669.19s/it][A
+Sampling news batches:  32%|███▏      | 15/47 [2:12:59<6:11:01, 695.69s/it][A
+Sampling news batches:  34%|███▍      | 16/47 [2:13:59<4:20:52, 504.91s/it][A
+Sampling news batches:  36%|███▌      | 17/47 [2:29:03<5:12:17, 624.59s/it][A
+Sampling news batches:  38%|███▊      | 18/47 [2:41:27<5:19:19, 660.67s/it][A
+Sampling news batches:  40%|████      | 19/47 [2:52:53<5:11:50, 668.25s/it][A
+
+Validating rep learning:   0%|          | 0/2211 [00:00<?, ?it/s][A[A
+
+Validating rep learning:   0%|          | 10/2211 [00:00<00:23, 92.58it/s][A[A
+
+Validating rep learning:   5%|▍         | 109/2211 [00:00<00:16, 127.15it/s][A[A
+
+Validating rep learning:  10%|█         | 232/2211 [00:00<00:11, 173.92it/s][A[A
+
+Validating rep learning:  19%|█▊        | 412/2211 [00:00<00:07, 238.54it/s][A[A
+
+Validating rep learning:  23%|██▎       | 508/2211 [00:00<00:05, 301.46it/s][A[A
+
+Validating rep learning:  31%|███       | 680/2211 [00:00<00:03, 398.87it/s][A[A
+
+Validating rep learning:  38%|███▊      | 831/2211 [00:00<00:02, 505.06it/s][A[A
+
+Validating rep learning:  45%|████▍     | 990/2211 [00:00<00:01, 634.88it/s][A[A
+
+Validating rep learning:  52%|█████▏    | 1159/2211 [00:00<00:01, 780.99it/s][A[A
+
+Validating rep learning:  62%|██████▏   | 1372/2211 [00:01<00:00, 964.18it/s][A[A
+
+Validating rep learning:  72%|███████▏  | 1586/2211 [00:01<00:00, 1154.16it/s][A[A
+
+Validating rep learning:  81%|████████▏ | 1800/2211 [00:01<00:00, 1338.23it/s][A[A
+
+Validating rep learning:  90%|████████▉ | 1989/2211 [00:01<00:00, 1461.02it/s][A[A
+
+Validating rep learning:  98%|█████████▊| 2177/2211 [00:01<00:00, 1559.76it/s][A[AValidating rep learning: 100%|██████████| 2211/2211 [00:01<00:00, 1500.30it/s]
+
+Sampling news batches:  43%|████▎     | 20/47 [3:10:17<5:51:21, 780.80s/it][A
+Sampling news batches:  45%|████▍     | 21/47 [3:21:30<5:24:22, 748.54s/it][A
+Sampling news batches:  47%|████▋     | 22/47 [3:25:23<4:07:24, 593.78s/it][A
