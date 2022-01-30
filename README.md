@@ -5,7 +5,7 @@
 
 ## Content of `reproducibility-experiments`
  * `local-machine-logs`: contains logs and related information for the attempts to fit FANG and baseline models on local machines (unfortunately, not all sessions were logged)
- * `colab-notebooks`: contains a notebook detailing the setup used to get FANG code running on Google Colab's VMs (`FANG_Google_Colab.ipynb`) and a notebook documenting a successful fit of the GCN baseline model, including test set result statistics  (`old_FANG_Google_Colab_with-GCN-results.ipynb - see output of second code cell after step 6`). For the latter, the created GCN models are also included in a ZIP archive.
+ * `colab-notebooks`: contains a notebook detailing the setup used to get FANG code running on Google Colab's VMs (`FANG_Google_Colab.ipynb`) and a notebook documenting a successful fit of the GCN baseline model, including test set result statistics  (`old_FANG_Google_Colab_with-GCN-results.ipynb` - see output of second code cell after step 6). For the latter, the created GCN models are also included in a ZIP archive.
  * `scripts`: contains the script used to shuffle the train, validation, and test splits of the dataset
 
 # Factual News Graph (FANG)
